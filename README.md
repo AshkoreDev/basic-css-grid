@@ -1,2 +1,2 @@
 # basic-css-grid
-Restaurant Landing Page, practice HTML and CSS Grid
+HTML and CSS Grid practice with Restaurant Landing Page.
