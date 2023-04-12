@@ -24,8 +24,8 @@ main {
 .hero__info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
+  justify-content: center;
 }
 
 .hero__image {
@@ -47,9 +47,9 @@ main {
 
 .hero__info--btn {
   padding: 12px 24px;
-  border: none;
-  border-radius: 20px;
   font-weight: 900;
+  border: transparent;
+  border-radius: 20px;
   background-color: #fb8c00;
 }
 
@@ -59,10 +59,10 @@ main {
 }
 
 .services__title {
+  margin-bottom: 100px 0 50px 0;
   font-size: 3rem;
   font-weight: 400;
   text-align: center;
-  margin-bottom: 100px 0 50px 0;
 }
 
 .services__dishes {
@@ -89,10 +89,10 @@ main {
 }
 
 .menu__title {
+  margin-bottom: 100px 0 50px 0;
   font-size: 3rem;
   font-weight: 400;
   text-align: center;
-  margin-bottom: 100px 0 50px 0;
 }
 
 .menu__plates {
@@ -116,7 +116,7 @@ main {
 }
 
 /* MEDIA QUERYS */
-@media (hover: hover) {
+@media (hover:hover) {
   .hero__info--btn:hover {
     opacity: 0.8;
     cursor: pointer;
@@ -141,8 +141,8 @@ main {
 @media screen and (max-width: 768px) {
   .hero {
     margin: 0;
-    grid-template-columns: 1fr;
     padding-bottom: 50px;
+    grid-template-columns: 1fr;
   }
 
   .hero__image {
